@@ -35,10 +35,6 @@ elif [[ "$theme" == *'type-3'* ]]; then
 	list_col='1'
 	list_row='4'
 	win_width='120px'
-elif [[ "$theme" == *'type-5'* ]]; then
-	list_col='1'
-	list_row='4'
-	win_width='425px'
 elif [[ ( "$theme" == *'type-2'* ) || ( "$theme" == *'type-4'* ) ]]; then
 	list_col='4'
 	list_row='1'

@@ -13,7 +13,7 @@ theme="$type/$style"
 prompt='Quick Links'
 mesg="Using '$BROWSER' as web browser"
 
-if [[ ( "$theme" == *'type-1'* ) || ( "$theme" == *'type-3'* ) || ( "$theme" == *'type-5'* ) ]]; then
+if [[ ( "$theme" == *'type-1'* ) || ( "$theme" == *'type-3'* )]]; then
 	list_col='1'
 	list_row='6'
 elif [[ ( "$theme" == *'type-2'* ) || ( "$theme" == *'type-4'* ) ]]; then
@@ -21,7 +21,7 @@ elif [[ ( "$theme" == *'type-2'* ) || ( "$theme" == *'type-4'* ) ]]; then
 	list_row='1'
 fi
 
-if [[ ( "$theme" == *'type-1'* ) || ( "$theme" == *'type-5'* ) ]]; then
+if [[ ( "$theme" == *'type-1'* ) ]]; then
 	efonts="JetBrains Mono Nerd Font 10"
 else
 	efonts="JetBrains Mono Nerd Font 28"

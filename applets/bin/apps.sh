@@ -13,7 +13,7 @@ theme="$type/$style"
 prompt='Applications'
 mesg="Installed Packages : `pacman -Q | wc -l` (pacman)"
 
-if [[ ( "$theme" == *'type-1'* ) || ( "$theme" == *'type-3'* ) || ( "$theme" == *'type-5'* ) ]]; then
+if [[ ( "$theme" == *'type-1'* ) || ( "$theme" == *'type-3'* )]]; then
 	list_col='1'
 	list_row='6'
 elif [[ ( "$theme" == *'type-2'* ) || ( "$theme" == *'type-4'* ) ]]; then

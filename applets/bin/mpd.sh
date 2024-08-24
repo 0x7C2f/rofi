@@ -19,7 +19,7 @@ else
 	mesg="`mpc -f "%title%" current` :: `mpc status | grep "#" | awk '{print $3}'`"
 fi
 
-if [[ ( "$theme" == *'type-1'* ) || ( "$theme" == *'type-3'* ) || ( "$theme" == *'type-5'* ) ]]; then
+if [[ ( "$theme" == *'type-1'* ) || ( "$theme" == *'type-3'* )]]; then
 	list_col='1'
 	list_row='6'
 elif [[ ( "$theme" == *'type-2'* ) || ( "$theme" == *'type-4'* ) ]]; then
